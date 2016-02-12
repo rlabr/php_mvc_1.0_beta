@@ -2,7 +2,7 @@
 
 return [
   'app' => [
-    'url' => 'http://localhost/~raghav/',
+    'url' => '',
     'hash' => [
       'algo' => PASSWORD_BCRYPT,
       'cost' => '10'
@@ -12,9 +12,9 @@ return [
   'db' => [
     'driver'    => 'mysql',
     'host'      => '127.0.0.1',
-    'database'  => 'rlabr',
-    'username'  => 'root',
-    'password'  => '90',
+    'database'  => '',
+    'username'  => '',
+    'password'  => '',
     'charset'   => 'utf8',
     'collation' => 'utf8_unicode_ci',
     'prefix'    => '',
@@ -29,8 +29,8 @@ return [
     'smtp_auth' => true,
     'smtp_secure' => 'tls',
     'host' => 'smtp.gmail.com',
-    'username' => 'rlabrapps@gmail.com',
-    'password' => 'rlabr2015',
+    'username' => '',
+    'password' => '',
     'port' => 587,
     'html' => true
   ],
